@@ -1,0 +1,127 @@
+/*responsive design****
+************SmallScreen*/
+
+@media screen and (min-width: 480px) {
+    /*contact-Page*/
+    #primary {
+        width: 50%;
+        float: left;
+
+    }
+    #secondary {
+
+        width: 40%;
+        float: right;
+
+    }
+
+    /*indexPage*/
+
+    #gallery li {
+
+        width: 28.3333%;
+    }
+
+    #gallery li:nth-child(4n) {
+        clear: left;
+    }
+
+#logo img {
+
+max-height: 150px;
+
+}
+
+
+
+
+
+    /*ABout-Page*/
+    .profile-photo {
+        float: left;
+        margin: 0 5% 80px 0;
+    }
+}
+
+
+/*only 480 screen*/
+@media screen and (max-width: 660px) {
+
+nav {
+
+border-top: 1px dotted #c4c4c4;
+border-bottom: 1px dotted #c4c4c4;
+
+}
+
+
+
+
+
+}
+
+/*responsive design****
+************medScreen*/
+
+@media screen and (min-width: 660px) {
+
+    /*header*/
+    nav {
+        background: none;
+        float: right;
+        font-size: 1.125em;
+        margin-right: 5%;
+        text-align: right;
+        width: 45%;
+
+    }
+
+    #logo  {
+        float: left;
+        margin-left: 3%;
+        text-align: center;
+        width: 45%;
+
+
+    }
+
+    #logo1 {
+
+      float: left;
+      margin-left: 3%;
+      text-align: center;
+      width: 45%;
+}
+
+
+
+    #logo img {
+
+width: 150px;
+
+    }
+
+
+    #logo1 img {
+
+width: 150px;
+
+    }
+
+
+    h1 {
+        font-size: 2.5em;
+    }
+
+    h2 {
+        font-size: 0.825em;
+        margin-bottom: 20px;
+
+
+    }
+
+    header {
+        border-bottom: 1px solid #c2c2c2;
+
+    }
+}
