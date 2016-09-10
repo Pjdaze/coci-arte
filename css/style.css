@@ -162,6 +162,10 @@ PAGE: Home
 }
 
 .w3-content {max-width:980px;margin:auto}
+.w3-animate-fading {
+
+  width: 100%;
+}
 
 
 
