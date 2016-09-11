@@ -31,7 +31,11 @@ h3 {
   margin: 0 0 1em 0;
 }
 
+p {
 
+line-height: 1.5em;
+
+}
 
 /**********************************
 HEADING
@@ -39,7 +43,7 @@ HEADING
 
 header {
 float: left;
-margin: 0 0 10px 0;
+margin: 0 0 50px 0;
 padding: 5px 0 0 0;
 width: 100%;
 
@@ -51,7 +55,7 @@ width: 100%;
   text-align: center;
   max-width: 15%;
   margin: 0;
-  
+
 }
 
 
