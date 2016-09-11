@@ -34,6 +34,8 @@ h3 {
 p {
 
 line-height: 1.5em;
+font-size: 1.2em;
+font-weight: 300;
 
 }
 
@@ -144,18 +146,10 @@ width: 35px;
 height: 35px;
 margin: 0 5px;
 padding: 5px;
-
-
-}
-#footerHome{
-      font-size: 0.75em;
-  text-align: center;
-    padding-top: 150px;
-
-  color: #c4c4c4;
-  clear: both;
+opacity: 0.5em;
 
 }
+
 
 /**********************************
 PAGE: Home
@@ -276,7 +270,7 @@ COLORS
 body {
 
   background-color: white;
-  color: #989898;
+  color: #636363;
 }
 
 
