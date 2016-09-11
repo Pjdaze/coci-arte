@@ -50,12 +50,15 @@ width: 100%;
 #logo {
   text-align: center;
   max-width: 15%;
+  margin: 0;
+  
 }
 
 
 #logo1 {
   text-align: center;
   max-width: 15%;
+  margin: 0;
 }
 
 
