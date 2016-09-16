@@ -168,7 +168,8 @@ font-size: 1em;
 PAGE: Home
 ***********************************/
 
-/* #wrapperHome #boxy img {
+/*****SLIDER*****/
+ #wrapperHome #boxy img {
 
 
  box-shadow: 0px 2px 15px rgba(0,0,0,.7);
@@ -184,7 +185,12 @@ PAGE: Home
   @-webkit-keyframes opac{from{opacity:0} to{opacity:1}}
   @keyframes opac{from{opacity:0} to{opacity:1}}
 
-*/
+
+
+/*END OF SLIDER*/
+
+
+
 
 
 
@@ -273,9 +279,6 @@ background-image: url('../pics/twitter.png');
     font-size: 1.25em;
 }
 
-
-
-
 /**********************************
 COLORS
 ***********************************/
@@ -301,21 +304,19 @@ body {
 }
 
 
-
-
-
 header {
-background-color: #202020;
 
+background-color: #3d3b3b;
 
 }
 
 footer {
+
     background-color: #555555;
 }
 
 h1, h2 {
-  color: #fff;
+  color: #161710;
 }
 
 h3 {
