@@ -61,6 +61,18 @@ border-bottom: 1px dotted #c4c4c4;
 }
 
 
+.w3-content, .w3-content1 {
+
+width: 350px;
+
+}
+
+.mySlides {
+width: 350px;
+
+height: 250px;
+}
+
 }
 
 /*responsive design****
