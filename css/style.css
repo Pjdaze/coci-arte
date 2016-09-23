@@ -55,6 +55,7 @@ padding: 5px 0 0 0;
 width: 100%;
 text-align: center;
 
+
 }
 
 
@@ -73,6 +74,21 @@ text-align: center;
   margin: 0;
 }
 
+#logo img {
+
+
+
+}
+
+
+#logo1 img, #logo img {
+
+max-width: 38%;
+    max-height: 15%;
+
+
+
+}
 
 h1 {
   font-family: 'Yellowtail', sans-serif;
@@ -90,6 +106,10 @@ h2 {
 
 
 
+
+
+
+
 /**********************************
 NAVIGATION
 ***********************************/
@@ -100,6 +120,8 @@ nav {
   text-align: center;
   padding: 30px 0;
   margin: 10px 0 0;
+  border-top: 1px dotted #c4c4c4;
+  border-bottom: 1px dotted #c4c4c4;
 
 }
 
@@ -141,10 +163,11 @@ FOOTER
 footer {
   font-size: 0.75em;
   text-align: center;
-  padding-top: 50px;
+  padding-top: 250px;
   color: #c4c4c4;
   clear: both;
     margin-top: 20px;
+
 
 }
 
@@ -162,6 +185,7 @@ opacity: 0.9;
 
 
 font-size: 1em;
+    color: #6f6f6f;
 
 }
 
@@ -177,7 +201,17 @@ PAGE: Home
 
 }
 
-.w3-content {max-width:980px;margin:auto}
+.w3-content  {
+  max-width:90%;
+  margin: auto;
+
+}
+
+.w3-content img {
+
+
+  margin: 0 auto;
+}
 
   .w3-animate-fading{-webkit-animation:fading 10s infinite;animation:fading 10s infinite}
   @-webkit-keyframes fading{0%{opacity:0}50%{opacity:1}100%{opacity:0}}
@@ -186,8 +220,10 @@ PAGE: Home
   @-webkit-keyframes opac{from{opacity:0} to{opacity:1}}
   @keyframes opac{from{opacity:0} to{opacity:1}}
 
+.mySlides {
 
-
+  height: 522px;
+}
 
 
 /*END OF SLIDER*/
@@ -212,14 +248,12 @@ border-radius: 10px;
 
 .mySlides {
 display: none;
+width: 860px;
+
+
 
 }
-.w3-content1  {
 
-float: right;
-padding-top: 200px
-
-}
  .sidePic {
 
 
@@ -288,17 +322,12 @@ COLORS
 
 body {
 
-  background-color: white;
+  background-color: #efefef;
   color: #505050;
 }
 
 
-.main-page  {
-    color: lightslategray;
-    font-size: 2.5em;
-    text-align: center;
 
-}
 
 .h2size {
      font-family: 'Gloria Hallelujah', cursive;
@@ -309,13 +338,13 @@ body {
 
 header {
 
-background-color: #3d3b3b;
+background-color: #2f2c2c;
 
 }
 
 footer {
 
-    background-color: #555555;
+    background-color: #dbdbdb;
 }
 
 h1, h2 {

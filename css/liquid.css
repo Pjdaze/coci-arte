@@ -1,7 +1,7 @@
 /*responsive design****
 ************SmallScreen*/
 
-@media screen and (min-width: 480px) {
+@media only screen and (min-width: 480px) {
     /*contact-Page*/
     #primary {
         width: 50%;
@@ -17,28 +17,7 @@
 
     /*indexPage*/
 
-    #gallery li {
 
-        width: 28.3333%;
-    }
-
-    #gallery li:nth-child(4n) {
-        clear: left;
-    }
-
-#logo img {
-
-max-height: 150px;
-
-}
-
-
-#logo1 img {
-
-max-height: 150px;
-
-
-}
 
   /*ABout-Page*/
     .profile-photo {
@@ -51,7 +30,7 @@ max-height: 150px;
 /*****************
 only 480 screen
 ******************/
-@media screen and (max-width: 660px) {
+@media only screen and  (max-width: 660px) {
 
 nav {
 
@@ -68,60 +47,37 @@ width: 80%;
 }
 
 .mySlides {
-width: 500px;
+width: 350px;
 
-height: 250px;
+height: 200px;
 }
+
+    #logo1 img {
+
+        max-height: 15%;
+    }
 
 }
 
 /*responsive design****
 ************medScreen*/
 
-@media screen and (min-width: 660px) {
+@media screen and (min-width: 660px) and (max-width: 100%) {
 
     /*header*/
     nav {
         background: none;
-        float: right;
+
         font-size: 1.125em;
-        margin-right: 5%;
-        text-align: right;
-        width: 45%;
 
-    }
-
-    #logo  {
-        float: left;
-        margin-left: 3%;
-        text-align: center;
-        width: 45%;
-
-
-    }
-
-    #logo1 {
-
-      float: left;
-      margin-left: 3%;
-      text-align: center;
-      width: 45%;
-}
-
-
-
-    #logo img {
-
-width: 150px;
+        width: 100%;
 
     }
 
 
-    #logo1 img {
 
-width: 150px;
 
-    }
+
 
 
     h1 {
@@ -140,10 +96,7 @@ width: 150px;
 
     }
 
-.mySlides {
 
-  max-width: 100%;
-}
 
 
 }
