@@ -70,25 +70,14 @@ text-align: center;
 
 #logo1 {
   text-align: center;
-  max-width: 15%;
+  max-width: 200px;
   margin: 0;
 }
 
-#logo img {
 
 
 
-}
 
-
-#logo1 img, #logo img {
-
-max-width: 38%;
-    max-height: 15%;
-
-
-
-}
 
 h1 {
   font-family: 'Yellowtail', sans-serif;
@@ -118,26 +107,36 @@ NAVIGATION
 nav {
 
   text-align: center;
-  padding: 30px 0;
+  padding: 25px 0;
   margin: 10px 0 0;
   border-top: 1px dotted #c4c4c4;
   border-bottom: 1px dotted #c4c4c4;
+
+
 
 }
 
 
 nav a, nav a:visited {
-  color: white;
+  color: #fff;
 }
 
 
-nav a.selected, nav a:hover {
-  color: #c7c7c7;
+nav a.selected,  {
+  color:#2e2e2e;
 }
+
+
+nav a:hover{
+
+background-color: #757575;
+
+}
+
 
 nav ul {
   list-style: none;
-  margin: 0 10px;
+  margin: 0px;
   padding: 0;
 
 }
@@ -146,15 +145,16 @@ nav li {
 
   display: inline-block;
 
-}
+    font-weight: 100;
 
+
+}
 nav a {
-  font-family: 'Roboto', sans-serif;
-font-weight: 100;
-font-size: 0.95em;
-padding: 15px 10px;
-
+  padding: 10px;
 }
+
+
+
 
 /**********************************
 FOOTER
@@ -221,8 +221,9 @@ PAGE: Home
   @keyframes opac{from{opacity:0} to{opacity:1}}
 
 .mySlides {
+width: 860px;
 
-  height: 522px;
+height: 522px;
 }
 
 
@@ -246,13 +247,7 @@ border-radius: 10px;
 
 }
 
-.mySlides {
-display: none;
-width: 860px;
 
-
-
-}
 
  .sidePic {
 
@@ -260,6 +255,11 @@ width: 860px;
   width: 500px;
 margin-top: 50px;
   margin-right: 60px;
+}
+
+#crew {
+  max-width: 600px;
+
 }
 
 

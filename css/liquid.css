@@ -17,6 +17,13 @@
 
     /*indexPage*/
 
+#logo1 img, #logo img {
+
+  max-width: 220px;
+}
+
+
+
 
 
   /*ABout-Page*/
@@ -32,50 +39,37 @@ only 480 screen
 ******************/
 @media only screen and  (max-width: 660px) {
 
-nav {
-
-border-top: 1px dotted #c4c4c4;
-border-bottom: 1px dotted #c4c4c4;
-
-}
-
-
-.w3-content, .w3-content1 {
-
-width: 80%;
-
-}
 
 .mySlides {
-width: 350px;
+width: 290px;
 
-height: 200px;
+height: 160px;
 }
 
-    #logo1 img {
 
-        max-height: 15%;
-    }
+#logo1 img, #logo img {
+
+  max-width: 200px;
+}
+
 
 }
 
 /*responsive design****
 ************medScreen*/
 
-@media screen and (min-width: 660px) and (max-width: 100%) {
+@media screen and (min-width: 600px) and (max-width: 800px) {
 
     /*header*/
-    nav {
-        background: none;
 
-        font-size: 1.125em;
 
-        width: 100%;
 
+
+    .mySlides {
+width: 80%;
+
+     height: 280px;
     }
-
-
-
 
 
 
@@ -96,7 +90,17 @@ height: 200px;
 
     }
 
+@media only screen and (min-width: 660px) and (max-width:100%)
 
+nav {
+  nav {
+      background: none;
 
+      font-size: 1.125em;
+
+      width: 100%;
+
+  }
+}
 
 }
