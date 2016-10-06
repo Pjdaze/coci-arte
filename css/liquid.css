@@ -3,17 +3,28 @@
 
 @media only screen and (min-width: 480px) {
     /*contact-Page*/
-    #primary {
-        width: 50%;
-        float: left;
 
-    }
-    #secondary {
 
-        width: 40%;
-        float: right;
+.left {
+  margin-top: 25px;
+  width: 50%;
 
-    }
+  float: left;
+}
+
+.right {
+background-color: rgba(232, 211, 211, 0.09);
+border-radius: 5px;
+margin-top: 25px;
+  width: 40%;
+  float: right;
+  text-align: center;
+}
+
+
+footer {
+  clear: both;
+}
 
     /*indexPage*/
 
@@ -27,30 +38,70 @@
 
 
   /*ABout-Page*/
-    .profile-photo {
-        float: left;
-        margin: 0 5% 80px 0;
-    }
+  .profile-photo {
+
+      margin: 0 5% 40px 0;
+
+  }
+
+  #top p {
+clear: both;
+margin: 0 15%;
+
+
+  }
+  .top {
+    text-align: center;
+  }
+
 }
-
-
+}
 /*****************
 only 480 screen
 ******************/
 @media only screen and  (max-width: 660px) {
 
 
-.mySlides {
-width: 290px;
+.w3-content img {
+width: 100%;
 
-height: 160px;
+height: 165px;
+
 }
+
+
 
 
 #logo1 img, #logo img {
 
-  max-width: 200px;
+  max-width: 180px;
 }
+
+#top p {
+clear: both;
+margin: 0 2%;
+
+
+}
+
+
+#top {
+  text-align: center;
+}
+
+
+
+.social-icon {
+  width: 16px;
+  height: 16px;
+}
+
+
+
+
+
+
+
 
 
 }
@@ -62,21 +113,24 @@ height: 160px;
 
     /*header*/
 
-
-
-
-    .mySlides {
-width: 80%;
-
-     height: 280px;
+    nav {
+        display: none !important;
     }
 
 
 
+    .w3-content img {
+    width: 100%;
+    height: 350px;
 
-    h1 {
-        font-size: 2.5em;
-    }
+
+  }
+
+
+
+
+
+
 
     h2 {
         font-size: 0.825em;
@@ -85,22 +139,89 @@ width: 80%;
 
     }
 
-    header {
-        border-bottom: 1px solid #c2c2c2;
-
-    }
-
-@media only screen and (min-width: 660px) and (max-width:100%)
-
-nav {
-  nav {
-      background: none;
-
-      font-size: 1.125em;
-
-      width: 100%;
 
   }
+
+@media only screen and (min-width: 800px)  {
+
+.w3-content img {
+
+  height: 535px;
+
 }
 
+
+
+nav {
+  font-size: 1.6em;
+
+}
+
+.dropdown {
+  display: none !important;
+}
+
+
+
+}
+
+
+
+@media only screen and (min-width: 800px) and (max-width:1000px) {
+
+  .w3-content img {
+
+    height: 400px;
+
+
+  }
+
+
+
+
+
+
+}
+
+
+@media only screen and (min-width: 1550px){
+
+.w3-content img {
+  width: 90%;
+}
+
+}
+
+
+@media screen and (min-width:200px) and (max-width: 800px) {
+
+
+  nav {
+      display: none !important;
+
+  }
+
+
+
+#logo1 img, #logo img {
+
+  width: 150px;
+  position: relative;
+  right: 40px;
+
+
+}
+
+
+
+.dropDownButton {
+background-color: transparent;
+    padding: 5px;
+    font-size: 1em;
+    border: none;
+    cursor: pointer;
+
+
+
+}
 }
